@@ -25,6 +25,21 @@ package com.revature.collections;
  *		Implementations:
  *			* LinkedList
  *			* PriorityQueue
+ *
+ * Collections API is bigger than the Collection interface.
+ * In fact, there is also a utility Collections class, which exposes
+ * certain helper functions.
+ * 
+ * The Collections API also includes Maps. Maps are not iterable, so are
+ * therefore not housed under the Iterable or Collection interface, but are
+ * a part of the Collections API.
+ * 
+ * Map forms its own branch of the Collection API, which has then further 
+ * concrete implementations.
+ * 
+ * 		Map - key-val pair
+ * 			* HashMap - Uses hashed value buckets to organize items for quick lookup
+ * 
  */
 public class CollectionsExplanation {
 
